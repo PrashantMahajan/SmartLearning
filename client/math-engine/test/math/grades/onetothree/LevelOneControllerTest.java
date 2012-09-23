@@ -10,6 +10,10 @@ public class LevelOneControllerTest {
 	@Test
 	public void testGetQuestion() {
 		this.printQuestions();
+		this.validateDivideByZero();
+		this.validatePerfectDivision();
+		this.validateNoNegativeOptions();
+		this.validateNoNegativeResults();
 	}
 	private void printQuestions() {
 		int v_iI = 0;
@@ -21,5 +25,17 @@ public class LevelOneControllerTest {
 			System.out.println("A." + v_objQuestion.getChoices()[0] + "\tB." + v_objQuestion.getChoices()[1] + "\nC." + v_objQuestion.getChoices()[2] + "\tD." + v_objQuestion.getChoices()[3]);
 			System.out.println("Answer: " + v_objQuestion.getCorrectAnswer());
 		}
+	}
+	private void validateDivideByZero() {
+		
+	}
+	private void validateNoNegativeOptions() {
+		
+	}
+	private void validateNoNegativeResults() {
+		
+	}
+	private void validatePerfectDivision() {
+		
 	}
 }
