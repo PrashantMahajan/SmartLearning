@@ -18,7 +18,7 @@ import math.MathQuestion;
  * S : Subtraction
  * 
  */
-public class LevelOneFuncGetQuestion extends LevelOneFunc {
+public class LevelOneFuncGetQuestion extends LevelOneToThreeFunc {
 
 	private enum Operators {
 		Add(0),
